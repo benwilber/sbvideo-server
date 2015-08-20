@@ -1,20 +1,6 @@
-# Super Fast Image Processing Service
+# HLS/DASH MP4 Proxy Server
 ## Basic usage
-####Resizing and maintaining aspect ration
+####Request a Master Playlist
 ```
-http://img.streamboat.tv/i.imgur.com/Je6etxd.jpg?height=300
+http://video.streamboat.tv/hls/master.m3u8?source=http://example.com/video.mp4
 ```
-####Resizing and applying new aspect ratio
-```
-http://img.streamboat.tv/i.imgur.com/Je6etxd.jpg?height=300&width=300
-```
-####Zooming
-```
-http://img.streamboat.tv/i.imgur.com/Je6etxd.jpg?zoom=1.5
-```
-####Zoom & Crop
-```
-http://img.streamboat.tv/i.imgur.com/Je6etxd.jpg?zoom=1.5&crop=1
-```
-
-Inspired by, and heavily borrowed from, [this blog post](https://phpb.com/portfolio/create-image-server-with-nginx-lua-openresty-graphicsmagick-part-1/)
