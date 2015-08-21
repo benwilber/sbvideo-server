@@ -11,4 +11,4 @@ def sync():
     srcdir = env.confdir + "/"
     dstdir = "/opt/openresty/"
     rsync_project(local_dir=srcdir, remote_dir=dstdir)
-    run("systemctl reload openresty.service")
+    run("systemctl restart openresty.service")
