@@ -2,7 +2,7 @@
 ## Basic usage
 ####Request a Master Playlist
 ```
-http://video.streamboat.tv/hls/master.m3u8?source=http://example.com/video.mp4
+GET http://video.streamboat.tv/hls/master.m3u8?source=http://example.com/video.mp4
 ```
 ```
 #EXTM3U
@@ -11,7 +11,7 @@ http://video.streamboat.tv/hls/index-v1-a1.m3u8?source=http://example.com/video.
 ```
 This video only has a single variant.
 ```
-http://video.streamboat.tv/hls/index-v1-a1.m3u8?source=http://example.com/video.mp4
+GET http://video.streamboat.tv/hls/index-v1-a1.m3u8?source=http://example.com/video.mp4
 ```
 ```
 #EXTM3U
